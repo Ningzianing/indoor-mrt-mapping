@@ -2,15 +2,6 @@
 
 Requirements: Python 3, numpy, pandas, scipy, openpyxl.
 
-Run order:
-
-    python calibrate.py                 -> output/calibration.json
-    python run_globes.py [days]         -> output/mrt_globes_<day>.csv
-    python run_maps.py [days]           -> output/mrt_maps_<day>.npz
-    python run_surfaces.py [days]       -> output/surface_temperatures_<day>.csv
-
-Without arguments the three run scripts process all validation days listed in config.py.
-
 | File | Content |
 |---|---|
 | config.py | days, shading condition, window orientation, constants |
