@@ -2,11 +2,6 @@
 
 Requirements: Python 3, numpy, pandas, scipy, openpyxl.
 
-Input layout (relative to the working directory):
-
-    rooftop-data/<YYYYMMDD>.xlsx
-    thermal/<camera>/<yymmdd>/<yymmdd_HHMM>_<yymmdd_HHMM>_avg10min_temp_c_matrix.csv
-
 Run order:
 
     python calibrate.py                 -> output/calibration.json
